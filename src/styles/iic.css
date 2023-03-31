@@ -1,0 +1,47 @@
+.about {
+  background-color: #FFFFFF;
+  padding: 60px 0;
+}
+
+.iic-logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.about h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: #3F3D56;
+  line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+  .about .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .about .col-md-4 {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .about .col-md-8 {
+    order: 1;
+    margin-right: auto;
+  }
+}
