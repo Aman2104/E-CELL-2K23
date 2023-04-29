@@ -7,8 +7,8 @@ function Team(props) {
             <div className="container">
                 <h2 className='text-center mb-3'>{props.heading}</h2>
                 <div className="row justify-content-center" style={{gap:"20px"}}>
-                    {props.TeamJSon.map((element) => {
-                        return (<TeamCard name={element.Name} designation={element.Designation} image={element.Photo} instagram={element.Instagram} twitter={element.Twitter} linkedin={element.LinkedIn} github={element.Github}  key={element.num} />)
+                    {props.TeamJSon.map((element, index) => {
+                        return (<TeamCard name={element.Name} designation={element.Designation} image={element.Photo} instagram={element.Instagram} twitter={element.Twitter} linkedin={element.LinkedIn} github={element.Github}  key={index} />)
                     })}
                 </div>
 

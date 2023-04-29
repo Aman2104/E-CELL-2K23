@@ -5,8 +5,7 @@
     width: 100%;
     top: 100px;
     left: 0;
-    z-index: 9999;
-    padding: 50px 0;
+    z-index: 9990;
 }
 
 h1 {

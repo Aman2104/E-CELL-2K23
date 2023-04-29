@@ -8,11 +8,11 @@ function Contactform() {
   return (
 
 
-    <section className="ftco-section py-3">
+    <section className="ftco-section py-3" id='contact'>
 		<div className="container">
 			<div className="row justify-content-center">
 				<div className="col-md-6 text-center mb-3">
-					<h2 className="heading-section">Contact Form</h2>
+					<h2 className="heading-section">Contact Us</h2>
 				</div>
 			</div>
 			<div className="row justify-content-center">
@@ -21,7 +21,7 @@ function Contactform() {
 						<div className="row no-gutters mb-5">
 							<div className="col-lg-7">
 								<div className="contact-wrap w-100 p-md-5 p-4">
-									<h3 className="mb-4">Contact Us</h3>
+									<h3 className="mb-4">Contact Form</h3>
 									<form action="https://formsubmit.co/1347872e09c810e7a154f200d3033ce8" method="POST" id="contactForm" name="contactForm" className="contactForm">
 										<div className="row">
 											<div className="col-md-6 mb-3">

@@ -40,7 +40,7 @@ function About() {
     </section>
     <section>
         {isClicked && (
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5xGeQiI7I3NUYzrbw3_bJMoH__YTEdL-Jb8XxVZpd_EdAPw/viewform?embedded=true" width="100%" style={{height:'100vh'}} frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5xGeQiI7I3NUYzrbw3_bJMoH__YTEdL-Jb8XxVZpd_EdAPw/viewform?embedded=true" width="100%" style={{height:'100vh'}} frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
           )}
     </section>
     </>

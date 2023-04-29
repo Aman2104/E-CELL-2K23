@@ -1,6 +1,12 @@
 .about {
   background-color: #FFFFFF;
-  padding: 60px 0;
+  padding: 30px 0;
+}
+
+.cic {
+  width: 400px;
+  border: 2px solid;
+  border-radius: 6px;
 }
 
 .iic-logo {
@@ -43,5 +49,14 @@
   .about .col-md-8 {
     order: 1;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .align-items-center {
+    flex-direction: column;
+  }
+  .cic{
+    width: 300px;
   }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Work from './Work'
 import Team from './Team'
 import LandingPage from './LandingPage'
+import UpcomingEvents from './UpcomingEvents'
 import Corousel from './CorouselItem'
 import About from './About'
 import Contactform from './Contactform'
@@ -10,20 +11,25 @@ import Contactform from './Contactform'
 import direc from '../assets/coordinators/direc.png'
 import teacher1 from '../assets/coordinators/teacher-1.png'
 import teacher2 from '../assets/coordinators/teacher-2.png'
-import teacher5 from '../assets/coordinators/teacher-5.png'
 import teacher7 from '../assets/coordinators/teacher-7.png'
 import teacher12 from '../assets/coordinators/teacher-12.png'
-import cd from '../assets/coordinators/CD.png'
+import atul from '../assets/coordinators/atul.png'
 import dm from '../assets/coordinators/DM.png'
 import sc from '../assets/coordinators/SC.png'
-import ss from '../assets/coordinators/SS.png'
+import ss from '../assets/coordinators/SS.png' 
+import nikhil from '../assets/coordinators/nikhil.png' 
+import sanjay from '../assets/coordinators/sanjay.png' 
+import sanjeev from '../assets/coordinators/sanjeev.png' 
+
+
+
+
 
 import himani from '../assets/core team/himani.png'
 import garvit from '../assets/core team/garvitarora.png'
 import kashish from '../assets/core team/kashish.png'
 import agrim from '../assets/core team/AGRIM.png'
 import aman from '../assets/core team/AMAN.png'
-import ankit from '../assets/core team/Ankit.png'
 import archie from '../assets/core team/archiegoel.png'
 import arjav from '../assets/core team/Arjav.png'
 import arushi from '../assets/core team/arushijoshi.png'
@@ -32,7 +38,7 @@ import gajender from '../assets/core team/gajenderyadav.png'
 import hitesh from '../assets/core team/Hitesh.png'
 import kanishka from '../assets/core team/kanishka.png'
 import keshav from '../assets/core team/keshav.png'
-import naman from '../assets/core team/NAMAN.png'
+import naman from '../assets/core team/naman.png'
 import nidhi from '../assets/core team/nidhiverma.png'
 import puneet from '../assets/core team/puneet.png'
 import radhika from '../assets/core team/RADHIKA.png'
@@ -44,6 +50,7 @@ import sumit from '../assets/core team/SUMIT.png'
 import tanishq from '../assets/core team/tanishq.png'
 import umakshi from '../assets/core team/umakshi.png'
 import yash from '../assets/core team/yashpalgoyal.png'
+import vrinda from '../assets/core team/Vrinda.png'
 
 
 
@@ -55,7 +62,7 @@ function Mainpage() {
     const coordinator = [
         {
             "Name": "Prof. Sunil Dhingra",
-            "Designation": "Director, UIET and Head, IIC",
+            "Designation": "Director, UIET & Head, IIC",
             "Photo": `${direc}`,
             "Instagram": "",
             "LinkedIn": "",
@@ -64,7 +71,7 @@ function Mainpage() {
         },
         {
             "Name": "Dr. Vishal Ahlawat",
-            "Designation": "Convener and IIC President",
+            "Designation": "IIC President & Coordinator, CIC",
             "Photo": `${teacher1}`,
             "Instagram": "",
             "LinkedIn": "",
@@ -73,7 +80,7 @@ function Mainpage() {
         },
         {
             "Name": "Dr. Kulvinder Singh",
-            "Designation": "Incharge, Community Incubation Centre",
+            "Designation": "Nodal Officer, CIC",
             "Photo": `${teacher12}`,
             "Instagram": "",
             "LinkedIn": "",
@@ -82,8 +89,35 @@ function Mainpage() {
         },
         {
             "Name": "Dr. Sunil Nain",
-            "Designation": "Vice President",
+            "Designation": "Vice President, IIC",
             "Photo": `${teacher7}`,
+            "Instagram": "",
+            "LinkedIn": "",
+            "Twitter": "",
+            "Github": ""
+        },
+        {
+            "Name": "DR. SANJAY KAJAL",
+            "Designation": "Startup & Internship Activity Coordinator",
+            "Photo": `${sanjay}`,
+            "Instagram": "",
+            "LinkedIn": "",
+            "Twitter": "",
+            "Github": ""
+        },
+        {
+            "Name": "DR. NIKHIL MARRIWALA",
+            "Designation": "MSME Coordinator",
+            "Photo": `${nikhil}`,
+            "Instagram": "",
+            "LinkedIn": "",
+            "Twitter": "",
+            "Github": ""
+        },
+        {
+            "Name": "DR. SANJEEV AHUJA",
+            "Designation": "Member IIC",
+            "Photo": `${sanjeev}`,
             "Instagram": "",
             "LinkedIn": "",
             "Twitter": "",
@@ -99,24 +133,6 @@ function Mainpage() {
             "Github": ""
         },
         {
-            "Name": "Mr. Ravinder",
-            "Designation": "Internship Activity Coordinator",
-            "Photo": `${teacher5}`,
-            "Instagram": "",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
-            "Name": "Dr. Chander Diwakar",
-            "Designation": "ARIIA Coordinator and Member",
-            "Photo": `${cd}`,
-            "Instagram": "",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
             "Name": "Dr. Deepak Malik",
             "Designation": "Innovation Activity and Member",
             "Photo": `${dm}`,
@@ -126,8 +142,17 @@ function Mainpage() {
             "Github": ""
         },
         {
+            "Name": "Ms. Sonia Saini",
+            "Designation": "ARIIA Coordinator",
+            "Photo": `${ss}`,
+            "Instagram": "",
+            "LinkedIn": "",
+            "Twitter": "",
+            "Github": ""
+        },
+        {
             "Name": "Ms. Shivani",
-            "Designation": "Social Media and Member",
+            "Designation": "Social Media Coordinator",
             "Photo": `${sc}`,
             "Instagram": "",
             "LinkedIn": "",
@@ -135,14 +160,15 @@ function Mainpage() {
             "Github": ""
         },
         {
-            "Name": "Ms. Sonia Saini",
-            "Designation": "ARIIA Coordinator and Member",
-            "Photo": `${ss}`,
+            "Name": "Mr. Atul",
+            "Designation": "Web Development Coordinator",
+            "Photo": `${atul}`,
             "Instagram": "",
             "LinkedIn": "",
             "Twitter": "",
             "Github": ""
         },
+        
     ]
     const TeamMembers = [
         {
@@ -158,7 +184,7 @@ function Mainpage() {
         {
             "num": "1",
             "Name": "AYUSH RAJ",
-            "Designation": "CO-LEAD",
+            "Designation": "Co-Lead",
             "Photo": `${ayush}`,
             "Instagram": "https://www.instagram.com/ayushrajreelandreal/?igshid=YmMyMTA2M2Y%3D",
             "LinkedIn": "https://www.linkedin.com/in/digitallyayush",
@@ -179,7 +205,7 @@ function Mainpage() {
         {
             "num": "3",
             "Name": "Sonu yadav",
-            "Designation": "Web developer",
+            "Designation": "Web Developer",
             "Photo": `${sonu}`,
             "Instagram": "https://www.instagram.com/___sonuyadav___/",
             "LinkedIn": "https://www.linkedin.com/in/sonu-yadav2/",
@@ -270,7 +296,7 @@ function Mainpage() {
         {
             "num": "13",
             "Name": "Umakshi",
-            "Designation": "Content writer",
+            "Designation": "Content Writer",
             "Photo": `${umakshi}`,
             "Instagram": "",
             "LinkedIn": "http://www.linkedin.com/in/umakshi-sharma-163302206",
@@ -280,7 +306,7 @@ function Mainpage() {
         {
             "num": "14",
             "Name": "Tanishq Garg",
-            "Designation": "Content writer",
+            "Designation": "Content Writer",
             "Photo": `${tanishq}`,
             "Instagram": "its.me_tanishq.garg",
             "LinkedIn": "https://www.linkedin.com/in/tanishq-garg-a6288822b",
@@ -291,7 +317,7 @@ function Mainpage() {
         {
             "num": "15",
             "Name": "Radhika",
-            "Designation": "Content writer",
+            "Designation": "Content Writer",
             "Photo": `${radhika}`,
             "Instagram": "https://instagram.com/_radhika_2812?igshid=ZDdkNTZiNTM=",
             "LinkedIn": "",
@@ -300,8 +326,8 @@ function Mainpage() {
         },
         {
             "num": "16",
-            "Name": "Hitesh chauhan",
-            "Designation": "Digital content creator",
+            "Name": "Hitesh Chauhan",
+            "Designation": "Digital Content Creator",
             "Photo": `${hitesh}`,
             "Instagram": "",
             "LinkedIn": "https://www.linkedin.com/in/hitesh-chauhan-759502207",
@@ -312,8 +338,8 @@ function Mainpage() {
 
         {
             "num": "17",
-            "Name": "Archie goel",
-            "Designation": "Social media team",
+            "Name": "Archie Goel",
+            "Designation": "Social Media Team",
             "Photo": `${archie}`,
             "Instagram": "https://instagram.com/archiegoel01?igshid=NjZiMGI4OTY=",
             "LinkedIn": "",
@@ -375,7 +401,7 @@ function Mainpage() {
         {
             "num": "23",
             "Name": "Nidhi",
-            "Designation": "Video editor",
+            "Designation": "Video Editor",
             "Photo": `${nidhi}`,
             "Instagram": "https://instagram.com/verma_nidhi_2003?igshid=ZDdkNTZiNTM=",
             "LinkedIn": "https://www.linkedin.com/in/nidhi-verma-61b918227",
@@ -386,21 +412,20 @@ function Mainpage() {
         {
             "num": "24",
             "Name": "Puneet verma",
-            "Designation": "Video editor",
+            "Designation": "Video Editor",
             "Photo": `${puneet}`,
             "Instagram": "",
             "LinkedIn": "https://www.linkedin.com/in/puneet-kumar-180a3a21b/",
             "Twitter": "https://twitter.com/pernoflyer",
             "Github": "https://pernoflyer-organic-space-capybara-446qp7ppqq7hjvx.github.dev/"
         },
-
         {
             "num": "25",
-            "Name": "Ankit Garg",
-            "Designation": "Event Management Lead",
-            "Photo": `${ankit}`,
-            "Instagram": "https://www.instagram.com/the___untold.story",
-            "LinkedIn": "",
+            "Name": "Vrinda Sharma",
+            "Designation": "Video Editor",
+            "Photo": `${vrinda}`,
+            "Instagram": "https://www.instagram.com/vrilancer/",
+            "LinkedIn": "https://www.linkedin.com/in/vrilancer-vrinda-sharma-a30a18211?originalSubdomain=in",
             "Twitter": "",
             "Github": ""
         },
@@ -420,6 +445,7 @@ function Mainpage() {
 
         <div>
             <LandingPage />
+            <UpcomingEvents/>
             <Corousel />
             <About />
             <Work workJSon={workJSon} heading="Our work" />

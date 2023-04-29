@@ -72,7 +72,7 @@ function PastEvents() {
         {events.map(event => (
           <div className="event-card" key={event.name}>
             <img src={event.image} alt={event.name} />
-            <div class="event-details">
+            <div className="event-details">
               <p><strong>{event.name}</strong></p>
               <p>{event.date}</p>
             </div>

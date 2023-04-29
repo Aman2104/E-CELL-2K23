@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Particles from 'particles-bg';
 import '../styles/Landingpage.css';
+import Scroll from 'react-scroll'
+const ScrollLink = Scroll.Link
 
 const LandingPage = () => {
   const [numParticles, setNumParticles] = useState(50);
@@ -48,7 +50,7 @@ const LandingPage = () => {
   }
   return (
 
-    <div ref={scrollRef} onScroll={handleScroll} style={{ backgroundColor: '#000000', position: "relative", height: '200vh', width: "100%", overflow: "hidden", }}>
+    <div ref={scrollRef} onScroll={handleScroll} style={{ backgroundColor: '#000000', position: "relative", height: '100vh', width: "100%", overflow: "hidden", }}>
       <Particles
         color='#FFFFFF'
         num={numParticles}
@@ -63,14 +65,14 @@ const LandingPage = () => {
           <span>Incubate</span>
         </div>
         <div style={{
-          opacity: 1 - scrollPosition / (window.innerHeight *0.5),
-          transform: `scale(${1 + (scrollPosition / (window.innerHeight *0.5))})`,
+          opacity: 1 - scrollPosition / (window.innerHeight ),
+          transform: `scale(${1 + (scrollPosition / (window.innerHeight ))})`,
           transformOrigin: "50% 80% 0px",
         }} className="container" >
           <h1>The Entrepreneurship Cell</h1>
           <h2 style={{ color: '#ffffff', fontWeight: "bold" }}>UIET Kurukshetra</h2>
           <p>"IDENTIFY YOUR PROBLEMS AND PUT IN ENERGY TO ACCOMPLISH SOLUTIONS."</p>
-          <a href="/" className="glowingbtn">Explore</a>
+          <ScrollLink className="glowingbtn" to="about" smooth={true} duration={500}>Explore</ScrollLink>
         </div>
       </div>
     </div>
