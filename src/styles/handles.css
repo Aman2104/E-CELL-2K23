@@ -75,4 +75,9 @@
     .contact-btn div {
         margin: 0 12px;
     }
+    .recentImage{
+        width:90%!important;
+        margin:20px!important;
+
+    }
 }

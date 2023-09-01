@@ -1,4 +1,4 @@
-import Image1 from '../assets/posters/innovateathon.png'
+import Image1 from '../assets/posters/SIHPOST.jpg'
 
 
 import React, { useState, useEffect } from "react";
@@ -26,7 +26,7 @@ function CorouselItem() {
       <h2 className='text-center mb-3' style={{ color: '#2553b8', fontSize: "36px", marginBottom: "20px" }}>Upcoming Events</h2>
       <Carousel activeIndex={index} direction={direction} onSelect={handleSelect}>
         <Carousel.Item>
-          <img className="d-block w-100" src={Image1} alt="Slide 1" />
+          <img className="d-block recentImage w-50 m-auto md-w-100" src={Image1} alt="Slide 1" />
         </Carousel.Item>
       </Carousel>
     </section>
