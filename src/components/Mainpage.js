@@ -26,31 +26,17 @@ import sanjeev from '../assets/coordinators/sanjeev.png'
 
 
 import himani from '../assets/core team/himani.png'
-import garvit from '../assets/core team/garvitarora.png'
-import kashish from '../assets/core team/kashish.png'
-import agrim from '../assets/core team/AGRIM.png'
-import aman from '../assets/core team/AMAN.png'
-import archie from '../assets/core team/archiegoel.png'
+import aman from '../assets/core team/Aman.png'
 import arjav from '../assets/core team/Arjav.png'
-import arushi from '../assets/core team/arushijoshi.png'
 import ayush from '../assets/core team/ayushraj.png'
 import gajender from '../assets/core team/gajenderyadav.png'
-import hitesh from '../assets/core team/Hitesh.png'
 import kanishka from '../assets/core team/kanishka.png'
-import keshav from '../assets/core team/keshav.png'
-import naman from '../assets/core team/naman.png'
-import nidhi from '../assets/core team/nidhiverma.png'
-import puneet from '../assets/core team/puneet.png'
-import radhika from '../assets/core team/RADHIKA.png'
-import rajat from '../assets/core team/Rajat.png'
+import naman from '../assets/core team/NAMAN.png'
 import shankar from '../assets/core team/Shankar.png'
-import shivani from '../assets/core team/SHIVANI.png'
-import sonu from '../assets/core team/sonuyadav.png'
 import sumit from '../assets/core team/SUMIT.png'
 import tanishq from '../assets/core team/tanishq.png'
 import umakshi from '../assets/core team/umakshi.png'
-import yash from '../assets/core team/yashpalgoyal.png'
-import vrinda from '../assets/core team/Vrinda.png'
+
 
 
 
@@ -191,27 +177,9 @@ function Mainpage() {
             "Twitter": "https://twitter.com/digitallyayush",
             "Github": ""
         },
-        {
-            "num": "2",
-            "Name": "Rajat Bansal",
-            "Designation": "Student Mentor",
-            "Photo": `${rajat}`,
-            "Instagram": "https://www.instagram.com/rajat._bansal_/",
-            "LinkedIn": "https://www.linkedin.com/in/rajatbansal01/",
-            "Twitter": "https://twitter.com/rajatbansal_dev",
-            "Github": "https://github.com/rajatbansal01"
-        },
+  
 
-        {
-            "num": "3",
-            "Name": "Sonu yadav",
-            "Designation": "Web Developer",
-            "Photo": `${sonu}`,
-            "Instagram": "https://www.instagram.com/___sonuyadav___/",
-            "LinkedIn": "https://www.linkedin.com/in/sonu-yadav2/",
-            "Twitter": "https://twitter.com/SonuYad51181593",
-            "Github": "https://github.com/sonuyadav2"
-        },
+ 
         {
             "num": "4",
             "Name": "GAJENDER YADAV",
@@ -252,26 +220,8 @@ function Mainpage() {
             "Twitter": "https://twitter.com/KanishkaMittal_",
             "Github": ""
         },
-        {
-            "num": "9",
-            "Name": "Kashish",
-            "Designation": "Graphic Designer",
-            "Photo": `${kashish}`,
-            "Instagram": "https://www.instagram.com/kashishgoyal_428/",
-            "LinkedIn": "https://www.linkedin.com/in/kashish-69b110201",
-            "Twitter": "",
-            "Github": "https://github.com/kkashish428"
-        },
-        {
-            "num": "10",
-            "Name": "Shivani",
-            "Designation": "Graphic Designer",
-            "Photo": `${shivani}`,
-            "Instagram": "",
-            "LinkedIn": "https://www.linkedin.com/in/shivani-729ab7243",
-            "Twitter": "",
-            "Github": "https://github.com/shivani022"
-        },
+
+   
         {
             "num": "11",
             "Name": "Sumit raj",
@@ -283,16 +233,6 @@ function Mainpage() {
             "Github": "https://github.com/Sumit-Raj026"
         },
 
-        {
-            "num": "12",
-            "Name": "Yash Pal Goyal",
-            "Designation": "Content Writer",
-            "Photo": `${yash}`,
-            "Instagram": "",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
         {
             "num": "13",
             "Name": "Umakshi",
@@ -314,69 +254,11 @@ function Mainpage() {
             "Github": "tanishqgarg002"
         },
 
-        {
-            "num": "15",
-            "Name": "Radhika",
-            "Designation": "Content Writer",
-            "Photo": `${radhika}`,
-            "Instagram": "https://instagram.com/_radhika_2812?igshid=ZDdkNTZiNTM=",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
-            "num": "16",
-            "Name": "Hitesh Chauhan",
-            "Designation": "Digital Content Creator",
-            "Photo": `${hitesh}`,
-            "Instagram": "",
-            "LinkedIn": "https://www.linkedin.com/in/hitesh-chauhan-759502207",
-            "Twitter": "",
-            "Github": ""
-        },
+  
 
+       
+     
 
-        {
-            "num": "17",
-            "Name": "Archie Goel",
-            "Designation": "Social Media Team",
-            "Photo": `${archie}`,
-            "Instagram": "https://instagram.com/archiegoel01?igshid=NjZiMGI4OTY=",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
-            "num": "18",
-            "Name": "Garvit Arora",
-            "Designation": "Social Media Team",
-            "Photo": `${garvit}`,
-            "Instagram": "https://instagram.com/_garvit_arora_?igshid=YmMyMTA2M2Y=",
-            "LinkedIn": "",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
-            "num": "19",
-            "Name": "Keshav Sardana",
-            "Designation": "Marketing and Promotions",
-            "Photo": `${keshav}`,
-            "Instagram": "Keshav_sardana1",
-            "LinkedIn": "https://www.linkedin.com/in/keshav-sardana-3228941b0",
-            "Twitter": "https://twitter.com/SardanaKeshav1?t=YBJUwCky-M9HMq5KPyvPDQ&s=09",
-            "Github": ""
-        },
-
-        {
-            "num": "20",
-            "Name": "Agrim Gupta",
-            "Designation": "Marketing and Promotions",
-            "Photo": `${agrim}`,
-            "Instagram": "https://instagram.com/agrim___07?igshid=ZDdkNTZiNTM=",
-            "LinkedIn": "https://www.linkedin.com/in/agrim-gupta-60b230244",
-            "Twitter": "",
-            "Github": "Agrim007"
-        },
         {
             "num": "21",
             "Name": "Naman",
@@ -398,47 +280,9 @@ function Mainpage() {
             "Github": ""
         },
 
-        {
-            "num": "23",
-            "Name": "Nidhi",
-            "Designation": "Video Editor",
-            "Photo": `${nidhi}`,
-            "Instagram": "https://instagram.com/verma_nidhi_2003?igshid=ZDdkNTZiNTM=",
-            "LinkedIn": "https://www.linkedin.com/in/nidhi-verma-61b918227",
-            "Twitter": "https://twitter.com/verma_nidhi2003?t=-BwandA7TUKcOaFyURLyNA&s=09",
-            "Github": "https://github.com/nidhirk2020"
-        },
+       
+       
 
-        {
-            "num": "24",
-            "Name": "Puneet verma",
-            "Designation": "Video Editor",
-            "Photo": `${puneet}`,
-            "Instagram": "",
-            "LinkedIn": "https://www.linkedin.com/in/puneet-kumar-180a3a21b/",
-            "Twitter": "https://twitter.com/pernoflyer",
-            "Github": "https://pernoflyer-organic-space-capybara-446qp7ppqq7hjvx.github.dev/"
-        },
-        {
-            "num": "25",
-            "Name": "Vrinda Sharma",
-            "Designation": "Video Editor",
-            "Photo": `${vrinda}`,
-            "Instagram": "https://www.instagram.com/vrilancer/",
-            "LinkedIn": "https://www.linkedin.com/in/vrilancer-vrinda-sharma-a30a18211?originalSubdomain=in",
-            "Twitter": "",
-            "Github": ""
-        },
-        {
-            "num": "26",
-            "Name": "Arushi Joshi",
-            "Designation": "Member",
-            "Photo": `${arushi}`,
-            "Instagram": "https://www.instagram.com/aru.shijoshi",
-            "LinkedIn": "https://www.linkedin.com/in/arushi-joshi-901314222",
-            "Twitter": "@ARUSHIJOSHI4",
-            "Github": ""
-        }
     ]
 
     return (
