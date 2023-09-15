@@ -16,10 +16,10 @@ import teacher12 from '../assets/coordinators/teacher-12.png'
 import atul from '../assets/coordinators/atul.png'
 import dm from '../assets/coordinators/DM.png'
 import sc from '../assets/coordinators/SC.png'
-import ss from '../assets/coordinators/SS.png' 
-import nikhil from '../assets/coordinators/nikhil.png' 
-import sanjay from '../assets/coordinators/sanjay.png' 
-import sanjeev from '../assets/coordinators/sanjeev.png' 
+import ss from '../assets/coordinators/SS.png'
+import nikhil from '../assets/coordinators/nikhil.png'
+import sanjay from '../assets/coordinators/sanjay.png'
+import sanjeev from '../assets/coordinators/sanjeev.png'
 
 
 
@@ -31,7 +31,7 @@ import arjav from '../assets/core team/Arjav.png'
 import ayush from '../assets/core team/ayushraj.png'
 import gajender from '../assets/core team/gajenderyadav.png'
 import kanishka from '../assets/core team/kanishka.png'
-import naman from '../assets/core team/NAMAN.png'
+import naman from '../assets/core team/naman.png'
 import shankar from '../assets/core team/Shankar.png'
 import sumit from '../assets/core team/SUMIT.png'
 import tanishq from '../assets/core team/tanishq.png'
@@ -154,7 +154,7 @@ function Mainpage() {
             "Twitter": "",
             "Github": ""
         },
-        
+
     ]
     const TeamMembers = [
         {
@@ -177,9 +177,9 @@ function Mainpage() {
             "Twitter": "https://twitter.com/digitallyayush",
             "Github": ""
         },
-  
 
- 
+
+
         {
             "num": "4",
             "Name": "GAJENDER YADAV",
@@ -221,7 +221,7 @@ function Mainpage() {
             "Github": ""
         },
 
-   
+
         {
             "num": "11",
             "Name": "Sumit raj",
@@ -254,10 +254,10 @@ function Mainpage() {
             "Github": "tanishqgarg002"
         },
 
-  
 
-       
-     
+
+
+
 
         {
             "num": "21",
@@ -280,8 +280,8 @@ function Mainpage() {
             "Github": ""
         },
 
-       
-       
+
+
 
     ]
 
@@ -289,7 +289,7 @@ function Mainpage() {
 
         <div>
             <LandingPage />
-            <UpcomingEvents/>
+            <UpcomingEvents />
             <Corousel />
             <About />
             <Work workJSon={workJSon} heading="Our work" />

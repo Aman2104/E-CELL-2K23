@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Scroll from 'react-scroll'
 import '../styles/navbar.css';
 import Logo from '../assets/logos/ecell_logo.png';
-import pdf from '../assets/posters/Hired Members Notice.pdf';
+import pdf from '../assets/posters/SIH 2023 Notice.pdf';
 const ScrollLink = Scroll.Link
 
 function Navbar() {
@@ -67,7 +67,7 @@ function Navbar() {
             <Link to="/iic" onClick={handleLinkClick}>IIC/CIC</Link>
           </li>
           <li>
-            <Link to={pdf} target={'_blank'} rel="noreferrer" onClick={handleLinkClick}>Interview Result</Link>
+            <Link to={pdf} target={'_blank'} rel="noreferrer" onClick={handleLinkClick}>SIH Notice</Link>
           </li>
           <li>
             <Link to="/" onClick={handleContactLinkClick}>Contact</Link>
