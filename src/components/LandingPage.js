@@ -50,7 +50,7 @@ const LandingPage = () => {
   }
   return (
 
-    <div ref={scrollRef} onScroll={handleScroll} style={{ backgroundColor: '#000000', position: "relative", height: '100vh', width: "100%", overflow: "hidden", }}>
+    <div ref={scrollRef} onScroll={handleScroll} style={{ backgroundColor: '#000000', position: "relative", height: '60vh', width: "100%", overflow: "hidden", }}>
       <Particles
         color='#FFFFFF'
         num={numParticles}

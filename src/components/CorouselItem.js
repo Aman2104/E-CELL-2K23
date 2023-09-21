@@ -1,6 +1,8 @@
 import Image1 from '../assets/posters/IncubationAgreement.png'
 import Image2 from '../assets/posters/IncubationAgreement2.png'
 import Image3 from '../assets/posters/Kavach.png'
+import Image4 from '../assets/posters/innovateathon.png'
+import Image5 from '../assets/posters/SIHPOST.jpg'
 
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-bootstrap";
@@ -34,6 +36,12 @@ function CorouselItem() {
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-50" style={{ margin: 'auto' }} src={Image3} alt="Slide 3" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-50" style={{ margin: 'auto' }} src={Image4} alt="Slide 3" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-50" style={{ margin: 'auto' }} src={Image5} alt="Slide 3" />
         </Carousel.Item>
       </Carousel>
     </section>

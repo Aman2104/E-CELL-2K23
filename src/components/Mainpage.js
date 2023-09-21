@@ -253,21 +253,15 @@ function Mainpage() {
             "Twitter": "@a_GARG_product",
             "Github": "tanishqgarg002"
         },
-
-
-
-
-
-
         {
             "num": "21",
             "Name": "Naman",
             "Designation": "Marketing and Promotions",
             "Photo": `${naman}`,
-            "Instagram": "",
+            "Instagram": "https://instagram.com/naman29saini",
             "LinkedIn": "https://www.linkedin.com/in/naman-saini-615279225",
-            "Twitter": "",
-            "Github": ""
+            "Twitter": "https://twitter.com/naman29saini",
+            "Github": "https://github.com/Naman29saini"
         },
         {
             "num": "22",

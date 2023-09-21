@@ -14,16 +14,16 @@ function TeamCard(props) {
                 <div className="designation">{props.designation}</div>
             </div>
             <div className="handles my-2">
-                <a href={props.linkedin}>
+                <a href={props.linkedin} target='_blank'>
                     <i className={"fa fa-linkedin " + (props.linkedin!==""? "d-inline-block" :"d-none")} style={{ color: "#0077b5" }}></i>
                 </a>
-                <a href={props.github}>
+                <a href={props.github} target='_blank'>
                     <i className={"fa fa-github " + (props.github!==""? "d-inline-block" :"d-none")} style={{ color: "#4078c0" }}></i>
                 </a>
-                <a href={props.instagram}>
+                <a href={props.instagram} target='_blank'>
                     <i className={"fa fa-instagram " + (props.instagram!==""? "d-inline-block" :"d-none")} ></i>
                 </a>
-                <a href={props.twitter}>
+                <a href={props.twitter} target='_blank'>
                     <i className={"fa fa-twitter " + (props.twitter!==""? "d-inline-block" :"d-none")} ></i>
                 </a>
             </div>

@@ -27,6 +27,9 @@ function About() {
                             components spanning students, faculty, working professionals, aspiring and existing
                             entrepreneurs, mentors, angel investors and venture capitalists.</p>
                             <button className="btn btn-primary" onClick={handleClick}>Google Form</button>
+                            <a className='d-block' href='https://forms.gle/xP5gT2pzM1WBb8sdA'>
+                                <button className="btn btn-primary" onClick={handleClick}>Submit Your Innovative Idea</button>
+                            </a>
                     </div>
                 </div> 
                 <div className="col-md-6">

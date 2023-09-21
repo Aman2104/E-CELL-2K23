@@ -30,10 +30,20 @@ import event27 from '../assets/past events/event27.png'
 import event28 from '../assets/past events/event28.png'
 import event29 from '../assets/past events/event29.png'
 import event30 from '../assets/past events/event30.png'
+
+
+import Image3 from '../assets/posters/Kavach.png'
+import Image4 from '../assets/posters/innovateathon.png'
+import Image5 from '../assets/posters/SIHPOST.jpg'
+
+
 function PastEvents() {
 
 
   const events = [
+    { name: 'SIH Internal Hackathon', date: '21th Sept, 2023', image: `${Image5}` },
+    { name: 'Innovate-A-Thon', date: '10th May,2023', image: `${Image4}` },
+    { name: 'Kavach Hackathon', date: '11th April,2023', image: `${Image3}` },
     { name: 'UIA HACKATHON -LOGO CONTEST', date: '14th Oct,2022', image: `${event1}` },
     { name: 'IPR AND PATENT FILING', date: '1st Oct,2022', image: `${event2}` },
     { name: 'NATIONAL BIO ENTREPRENEURSHIP COMPETITION', date: '', image: `${event3}` },
