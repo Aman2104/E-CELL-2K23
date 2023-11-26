@@ -1,0 +1,30 @@
+.about-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.about-text {
+    margin-bottom: 30px;
+} 
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2553b8;
+}
+.container h2{
+    color: #2553b8;
+    font-weight: bolder;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
