@@ -108,8 +108,8 @@ function IIC() {
                         })}
                     </div>
                     <div className="d-flex justify-content-center flex-wrap" style={{ 'gap': '30px' }}>
-                        <a className="btn btn-primary" href='https://myoohr.com/' target='_blank' type="button">Institution Innovation and Startup Policy (IISP)</a>
-                        <a className="btn btn-primary" href={cic_policy} target='_blank' type="button">Apply Online for Community Incubation Centre</a>
+                        <a className="btn btn-primary" href={cic_policy} target='_blank' type="button">Institution Innovation and Startup Policy (IISP)</a>
+                        <a className="btn btn-primary" href='https://docs.google.com/forms/d/e/1FAIpQLSeF58qVit-HTzW4KrbBJKCd0R_dmKZ8R6E-FNlYRZrTFTUg3A/viewform' target='_blank' type="button">Apply Online for Community Incubation Centre</a>
                     </div>
                 </div>
             </section>
