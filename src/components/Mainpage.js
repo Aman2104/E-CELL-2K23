@@ -283,7 +283,7 @@ function Mainpage() {
 
         <div>
             <LandingPage />
-            <UpcomingEvents />
+            {/* <UpcomingEvents /> */}
             <Corousel />
             <About />
             <Work workJSon={workJSon} heading="Our work" />

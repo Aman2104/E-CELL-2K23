@@ -6,8 +6,6 @@ function Contactform() {
 	const [subject, setSubject]= useState();
 	const [message, setMessage]= useState();
   return (
-
-
     <section className="ftco-section py-3" id='contact'>
 		<div className="container">
 			<div className="row justify-content-center">
