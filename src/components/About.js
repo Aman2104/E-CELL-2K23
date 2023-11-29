@@ -71,7 +71,3 @@ function About() {
 }
 
 export default About;
-
-
-
-// Aman@2104iooi
