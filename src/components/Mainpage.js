@@ -27,7 +27,7 @@ import ayush from "../assets/core team/ayushraj.png";
 import gajender from "../assets/core team/gajenderyadav.png";
 import kanishka from "../assets/core team/kanishka.png";
 import naman from "../assets/core team/naman.png";
-import sumit from "../assets/core team/SUMIT.png";
+// import sumit from "../assets/core team/SUMIT.png";
 import tanishq from "../assets/core team/tanishq.png";
 import umakshi from "../assets/core team/umakshi.png";
 import dipanshu from "../assets/core team/dipanshu.jpg";
@@ -47,7 +47,7 @@ import Khushi from "../assets/core team/Khushi.jpg"
 import Khushi_Dixit from "../assets/core team/Khushi_Dixit.jpeg"
 import Prashant from "../assets/core team/Prashant.jpg"
 import Priyanshu from "../assets/core team/Priyanshu.jpg"
-import ROHIT from "../assets/core team/ROHIT.jpg"
+// import ROHIT from "../assets/core team/ROHIT.jpg"
 import sahil from "../assets/core team/sahil.JPG"
 import Shankar from "../assets/core team/Shankar.jpg"
 import Shyam from "../assets/core team/Shyam.jpg"
@@ -330,18 +330,6 @@ function Mainpage() {
       Twitter: "https://twitter.com/KanishkaMittal_",
       Github: "",
     },
-
-    {
-      num: "11",
-      Name: "Sumit raj",
-      Designation: "Graphics Designer",
-      Photo: ` ${sumit}`,
-      Instagram: "https://instagram.com/sumit_raj027?igshid=ZDdkNTZiNTM=",
-      LinkedIn: "https://www.linkedin.com/in/sumit-raj-51163122a",
-      Twitter: "",
-      Github: "https://github.com/Sumit-Raj026",
-    },
-
     {
       num: "13",
       Name: "Umakshi",
@@ -519,17 +507,17 @@ function Mainpage() {
       Twitter: "https://x.com/ArshJoshi152153?t=87r7_ePZB-FbWxyxYJvAaw&s=09",
       Github: "https://github.com/priyanshu9046",
     },
-    {
-      num: "40",
-      Name: "ROHIT KUMAR SAINI ",
-      Designation: "Social team ",
-      Photo: `${ROHIT}`,
-      Instagram: "https://instagram.com/finexrohit?igshid=YnRqbGp2OHkxZG5l",
-      LinkedIn:
-        "https://www.linkedin.com/in/rohit-saini-5b0a0424b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      Twitter: "https://x.com/finexrohit?t=pXmHkzOWmCA6BUORtrbANA&s=09",
-      Github: "https://github.com/finexrohit",
-    },
+    // {
+    //   num: "40",
+    //   Name: "ROHIT KUMAR SAINI ",
+    //   Designation: "Social team ",
+    //   Photo: `${ROHIT}`,
+    //   Instagram: "https://instagram.com/finexrohit?igshid=YnRqbGp2OHkxZG5l",
+    //   LinkedIn:
+    //     "https://www.linkedin.com/in/rohit-saini-5b0a0424b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    //   Twitter: "https://x.com/finexrohit?t=pXmHkzOWmCA6BUORtrbANA&s=09",
+    //   Github: "https://github.com/finexrohit",
+    // },
     {
       num: "41",
       Name: "Chandan",

@@ -1,4 +1,4 @@
-import Image1 from '../assets/posters/SIHPOST.jpg'
+import Image1 from '../assets/posters/Prayas.png'
 
 
 import React, { useState, useEffect } from "react";
