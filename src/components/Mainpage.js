@@ -2,7 +2,7 @@ import React from "react";
 import Work from "./Work";
 import Team from "./Team";
 import LandingPage from "./LandingPage";
-import UpcomingEvents from "./UpcomingEvents";
+import UpcomingEvents from "../assets/posters/UpcomingEvents";
 import Corousel from "./CorouselItem";
 import About from "./About";
 import Contactform from "./Contactform";
